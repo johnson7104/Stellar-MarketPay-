@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-1840-rewrite-docs-architecture-md-with-the-real",
+    "fix/issue-1847-remove-leftover-fix-patch-and-pr-body-md-from",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-1840-rewrite-docs-architecture-md-with-the-real": "main",
+    "fix/issue-1847-remove-leftover-fix-patch-and-pr-body-md-from": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-1840-rewrite-docs-architecture-md-with-the-real",
+    "fix/issue-1847-remove-leftover-fix-patch-and-pr-body-md-from",
+    "origin"
+  ]
+}
