@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "cp public/sw.src.js public/sw.js && next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && cp public/sw.src.js public/sw.js && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "eslint .",
     "lint:ci": "eslint . --max-warnings=0",
     "verify-sri": "node scripts/verify-sri.mjs",
